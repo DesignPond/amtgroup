@@ -1,0 +1,54 @@
+.bx-wrapper{
+    position: relative;
+    z-index: 1;
+}
+
+.bx-controls{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.bx-controls-direction{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.bx-controls-direction a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    font-size: 40px;
+}
+
+.bx-controls-direction a.bx-next:after{
+    content: '\f054';
+}
+
+.bx-controls-direction a.bx-prev:after{
+    content: '\f053';
+}
+
+.ult-item-wrap .lick-slide{
+    padding: 0 10px;
+}
+
+.slider-clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider-clients div{
+    width: 214px;
+}

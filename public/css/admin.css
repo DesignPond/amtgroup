@@ -1,0 +1,29 @@
+trix-editor h1{
+    font-size: 20px;
+}
+
+.multiselect--above .multiselect__content-wrapper,
+.multiselect{
+    max-height: 15rem;
+    height: 200px;
+}
+
+.multiselect__content {
+    position: absolute;
+    list-style: none;
+    display: block;
+    background: #fff;
+    width: 100%;
+    max-height: 15rem;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #bacad6;
+    border-top-color: rgb(186, 202, 214);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: none;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    z-index: 50;
+}
